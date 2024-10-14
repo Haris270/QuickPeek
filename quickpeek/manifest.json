@@ -1,0 +1,37 @@
+{
+    "name" : "QuickPeek",
+    "version" : "1.0.0",
+    "description" : "This is a quick searcher that uses Google Gemini to help you look up information without having to go to a search engine in a separate tab. Talk about convenience!",
+    "manifest_version" : 3,
+    "author" : "Muhammad Haris",
+    "permissions" : ["activeTab" , "scripting"],
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["app.js"]
+        }
+    ],
+    "action" : {
+        "default_popup" : "index.html",
+        "default_title" : "QuickPeek v1.0.0"
+    },
+
+    "commands": {
+        "open-popup": {
+          "suggested_key": {
+            "default": "MacCtrl+Z"
+          },
+          "description": "Open the extension popup by pressing Shift twice"
+
+        }
+      },
+
+      "icons": {
+        "16": "icons/quickpeek16.png",
+        "48" : "icons/quickpeek48.png",
+        "128" : "icons/quickpeek128.png"
+      }
+}
