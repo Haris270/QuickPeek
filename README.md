@@ -22,6 +22,21 @@ QuickPeek is a Chrome extension that allows users to quickly search for definiti
   - [Google Prompt API](https://developer.chrome.com/docs/ai/built-in-apis#prompt_api): Used for retrieving information and generating responses based on user queries.
 
 
+## Usage
+
+ **1.Press CTRL+Z to open the extension**
+
+- Type in a word to get the meaning:
+  
+<img width="1452" alt="QuickPeek Usage Example 1" src="https://github.com/user-attachments/assets/6708df41-24b9-4c89-a875-913a85528410">
+
+
+- Type in a question and get an instant answer:
+  
+<img width="1468" alt="QuickPeek Usage Example 2" src="https://github.com/user-attachments/assets/5b19a46e-2904-4f76-83c6-a9b91bd606dd">
+
+
+
 
 ## Installation
 
