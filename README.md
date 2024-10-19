@@ -2,7 +2,7 @@
 
 QuickPeek is a Chrome extension that allows users to quickly search for definitions and information without leaving their current tab. Just press `CTRL + Z`, and your pop-up search panel will appear for instant searching!
 
-<img width="508" alt="Screenshot 2024-10-14 at 2 59 39 PM" src="https://github.com/user-attachments/assets/d957e907-6d3a-4ac4-9517-3688d90f8555">
+<img width="508" alt="QuickPeek-image" src="https://github.com/user-attachments/assets/d957e907-6d3a-4ac4-9517-3688d90f8555">
 
 ## Features
 
